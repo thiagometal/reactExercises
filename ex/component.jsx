@@ -1,5 +1,5 @@
 import React from 'react'
 
-export default function() {
-    return <h1> Primeiro Componente </h1>
-}
+export default () => ( // implitamente retornando a expressao que representa o componente
+    <h1> Primeiro Componente </h1>
+)
