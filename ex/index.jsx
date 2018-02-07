@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MetalFamily from './metalFamily'
+import Family from './family'
+import Member from './member'
 
 // ReactDOM.render(<h1>Olá React</h1>, document.getElementById('app'))
 ReactDOM.render(
-    <MetalFamily />
+    <Family>
+        <Member name='Thiago' lastName='Metal' />
+    </Family>
 , document.getElementById('app'))
